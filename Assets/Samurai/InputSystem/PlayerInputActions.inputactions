@@ -47,6 +47,17 @@
                 },
                 {
                     "name": "",
+                    "id": "5fc8cc68-934c-4947-a9a8-476383cfbbf1",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Run",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "db7ae982-d1db-4071-9361-c204bc1b580b",
                     "path": "<Keyboard>/space",
                     "interactions": "",
@@ -79,9 +90,31 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "up",
+                    "id": "3347b2b0-d937-4ade-a566-631aa7056675",
+                    "path": "<Keyboard>/upArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "down",
                     "id": "28b96a97-dddf-4144-b16f-fe146952c6b0",
                     "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "b8445b50-dd3d-417c-9608-a228292995cd",
+                    "path": "<Keyboard>/downArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -101,9 +134,20 @@
                     "isPartOfComposite": true
                 },
                 {
+                    "name": "left",
+                    "id": "4f55ffa9-c142-4324-852d-a22d6db128a5",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
                     "name": "right",
                     "id": "a94c1d67-0125-4b38-b1e5-9ac12a0f072b",
-                    "path": "<Keyboard>/d",
+                    "path": "<Keyboard>/rightArrow",
                     "interactions": "",
                     "processors": "",
                     "groups": "",

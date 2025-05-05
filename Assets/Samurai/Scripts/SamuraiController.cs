@@ -4,6 +4,19 @@ using PlayerActions;
 [RequireComponent(typeof(Rigidbody2D))]
 public class SamuraiController : MonoBehaviour
 {
+    public event System.Action OnJumpStarted;
+    public event System.Action OnLanded;
+
+    private Rigidbody2D _rb;
+    private PlayerInputActions _input;
+    private Vector2 _moveInput;
+    private bool _isRunning;
+
+    private bool _isGrounded;
+    private bool _jumpRequested;
+    private bool _wasGroundedLastFrame;
+    private bool _justLanded;
+
     [Header("References")]
     [SerializeField] private Transform visuals;
 
@@ -11,10 +24,15 @@ public class SamuraiController : MonoBehaviour
     [SerializeField] private float walkSpeed = 2f;
     [SerializeField] private float runSpeed = 4f;
 
-    private Rigidbody2D _rb;
-    private PlayerInputActions _input;
-    private Vector2 _moveInput;
-    private bool _isRunning;
+    [Header("Jump Settings")]
+    [SerializeField] private float jumpForce = 12f;
+    [SerializeField] private Transform groundCheck;          
+    [SerializeField] private float groundCheckRadius = 0.1f;  
+    [SerializeField] private LayerMask groundLayer;
+
+    public bool IsAttacking { get; set; }
+    public bool IsFalling => _rb.linearVelocity.y < -0.1f && !_isGrounded;
+
 
     void Awake()
     {
@@ -31,6 +49,9 @@ public class SamuraiController : MonoBehaviour
 
         _input.Player.Run.performed += ctx => _isRunning = true;
         _input.Player.Run.canceled += ctx => _isRunning = false;
+
+        _input.Player.Jump.performed += ctx => TryJump();
+
     }
 
     void OnDisable()
@@ -45,9 +66,29 @@ public class SamuraiController : MonoBehaviour
 
     void FixedUpdate()
     {
+        // Ground check first
+        CheckGrounded();
+
+        // Apply movement only if not attacking
         float speed = _isRunning ? runSpeed : walkSpeed;
-        Vector2 velocity = new Vector2(_moveInput.x * speed, _rb.linearVelocity.y);
-        _rb.linearVelocity = velocity;
+        float horizontal = IsAttacking ? 0f : _moveInput.x * speed;
+
+        // Stop movement if grounded and no input
+        if (_justLanded)
+        {
+            horizontal = 0f;
+        }
+
+        // Apply horizontal + preserve vertical
+        _rb.linearVelocity = new Vector2(horizontal, _rb.linearVelocity.y);
+
+
+        // Apply jump (even during attack if needed)
+        if (_jumpRequested)
+        {
+            _rb.linearVelocity = new Vector2(_rb.linearVelocity.x, jumpForce);
+            _jumpRequested = false;
+        }
     }
 
     private void HandleVisualFlip()
@@ -57,6 +98,37 @@ public class SamuraiController : MonoBehaviour
             Vector3 scale = visuals.localScale;
             scale.x = _moveInput.x > 0 ? 1 : -1;
             visuals.localScale = scale;
+        }
+    }
+
+    private void TryJump()
+    {
+        if (_isGrounded && !IsAttacking)
+        {
+            _jumpRequested = true;
+            OnJumpStarted?.Invoke(); 
+        }
+    }
+
+    private void CheckGrounded()
+    {
+        _wasGroundedLastFrame = _isGrounded;
+        _isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundLayer);
+
+        _justLanded = _isGrounded && !_wasGroundedLastFrame;
+
+        if (_justLanded)
+        {
+            OnLanded?.Invoke(); // used in AnimatorController to trigger "Land"
+        }
+    }
+
+    void OnDrawGizmosSelected()
+    {
+        if (groundCheck != null)
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(groundCheck.position, groundCheckRadius);
         }
     }
 

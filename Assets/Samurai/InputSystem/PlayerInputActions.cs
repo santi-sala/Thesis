@@ -119,6 +119,15 @@ namespace PlayerActions
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Jump"",
+                    ""type"": ""Button"",
+                    ""id"": ""1d5be786-320c-4e91-860f-fc74a44e935e"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -147,7 +156,7 @@ namespace PlayerActions
                 {
                     ""name"": """",
                     ""id"": ""db7ae982-d1db-4071-9361-c204bc1b580b"",
-                    ""path"": ""<Keyboard>/space"",
+                    ""path"": ""<Keyboard>/f"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -234,6 +243,17 @@ namespace PlayerActions
                 },
                 {
                     ""name"": ""right"",
+                    ""id"": ""30a8a67e-8b8b-44eb-9dac-deaa7663850d"",
+                    ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Move"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""right"",
                     ""id"": ""a94c1d67-0125-4b38-b1e5-9ac12a0f072b"",
                     ""path"": ""<Keyboard>/rightArrow"",
                     ""interactions"": """",
@@ -242,6 +262,17 @@ namespace PlayerActions
                     ""action"": ""Move"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""a6f4edc0-9663-484b-b668-595a5be0e261"",
+                    ""path"": ""<Keyboard>/space"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Jump"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -253,6 +284,7 @@ namespace PlayerActions
             m_Player_Move = m_Player.FindAction("Move", throwIfNotFound: true);
             m_Player_Run = m_Player.FindAction("Run", throwIfNotFound: true);
             m_Player_Attack = m_Player.FindAction("Attack", throwIfNotFound: true);
+            m_Player_Jump = m_Player.FindAction("Jump", throwIfNotFound: true);
         }
 
         ~@PlayerInputActions()
@@ -336,6 +368,7 @@ namespace PlayerActions
         private readonly InputAction m_Player_Move;
         private readonly InputAction m_Player_Run;
         private readonly InputAction m_Player_Attack;
+        private readonly InputAction m_Player_Jump;
         /// <summary>
         /// Provides access to input actions defined in input action map "Player".
         /// </summary>
@@ -359,6 +392,10 @@ namespace PlayerActions
             /// Provides access to the underlying input action "Player/Attack".
             /// </summary>
             public InputAction @Attack => m_Wrapper.m_Player_Attack;
+            /// <summary>
+            /// Provides access to the underlying input action "Player/Jump".
+            /// </summary>
+            public InputAction @Jump => m_Wrapper.m_Player_Jump;
             /// <summary>
             /// Provides access to the underlying input action map instance.
             /// </summary>
@@ -394,6 +431,9 @@ namespace PlayerActions
                 @Attack.started += instance.OnAttack;
                 @Attack.performed += instance.OnAttack;
                 @Attack.canceled += instance.OnAttack;
+                @Jump.started += instance.OnJump;
+                @Jump.performed += instance.OnJump;
+                @Jump.canceled += instance.OnJump;
             }
 
             /// <summary>
@@ -414,6 +454,9 @@ namespace PlayerActions
                 @Attack.started -= instance.OnAttack;
                 @Attack.performed -= instance.OnAttack;
                 @Attack.canceled -= instance.OnAttack;
+                @Jump.started -= instance.OnJump;
+                @Jump.performed -= instance.OnJump;
+                @Jump.canceled -= instance.OnJump;
             }
 
             /// <summary>
@@ -475,6 +518,13 @@ namespace PlayerActions
             /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
             /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
             void OnAttack(InputAction.CallbackContext context);
+            /// <summary>
+            /// Method invoked when associated input action "Jump" is either <see cref="UnityEngine.InputSystem.InputAction.started" />, <see cref="UnityEngine.InputSystem.InputAction.performed" /> or <see cref="UnityEngine.InputSystem.InputAction.canceled" />.
+            /// </summary>
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.started" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.performed" />
+            /// <seealso cref="UnityEngine.InputSystem.InputAction.canceled" />
+            void OnJump(InputAction.CallbackContext context);
         }
     }
 }

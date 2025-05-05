@@ -1,0 +1,1935 @@
+fileFormatVersion: 2
+guid: 7b14b4f9ac62b2e4aa52a79f7ae4de24
+importerOverride:
+  nativeImporterType: 2089858483
+  scriptedImporterType:
+    serializedVersion: 2
+    Hash: b10b55a1aa6a1aa32521bc0cab59632e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 60a5b5e2b50641f40ba219ed89e3d492
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  multiSpriteImportData: []
+  layeredSpriteImportData:
+  - name: Samurai_Dead_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1006
+      width: 75
+      height: 10
+    spriteID: d20e9988eb7b1a4418cedfedf73b3909
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1006}
+    spritePosition: {x: 287, y: 0}
+  - name: Samurai_Dead_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 960
+      width: 52
+      height: 58
+    spriteID: d266ae8544bce3b48a05c12ad43171e9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 960}
+    spritePosition: {x: 154, y: 0}
+  - name: Samurai_Dead_00
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 161
+      width: 49
+      height: 74
+    spriteID: 8ea849b7913e05f4a97f0817e6438ae2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 161}
+    spritePosition: {x: 27, y: 0}
+  - name: Samurai_Hurt_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 94
+      width: 48
+      height: 77
+    spriteID: 3f40ab6a2b5af7d4fb659748d767e673
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 94}
+    spritePosition: {x: 152, y: 128}
+  - name: Samurai_Hurt_00
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 522
+      width: 48
+      height: 79
+    spriteID: 10c9beaf47b719640981c496fcfdf920
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 522}
+    spritePosition: {x: 24, y: 128}
+  - name: Samurai_Shield_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 4
+      width: 57
+      height: 77
+    spriteID: 3057b776b50e7fd4fba3bc5d78f2e77d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 113, y: 4}
+    spritePosition: {x: 162, y: 256}
+  - name: Samurai_Shield_00
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 416
+      width: 63
+      height: 77
+    spriteID: c20e82f40e198924e9ca51a00ed727ec
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 416}
+    spritePosition: {x: 34, y: 256}
+  - name: Samurai_Attack_03_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 101
+      height: 75
+    spriteID: 8b11f9edd1d975946a8838f38283a213
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 278, y: 384}
+  - name: Samurai_Attack_03_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 87
+      width: 100
+      height: 75
+    spriteID: ff2b9a8c41c4d4f40ae17225c0323bf5
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 87}
+    spritePosition: {x: 150, y: 384}
+  - name: Samurai_Attack_03_00
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 333
+      width: 79
+      height: 75
+    spriteID: 89ca9a09129e2614e89ce12430defe70
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 333}
+    spritePosition: {x: 20, y: 384}
+  - name: Samurai_Attack_02_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 925
+      width: 63
+      height: 73
+    spriteID: 81fe9685c1047bb4db0a8845725a1ecc
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 925}
+    spritePosition: {x: 402, y: 512}
+  - name: Samurai_Attack_02_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 252
+      width: 98
+      height: 73
+    spriteID: 6afec9adf688be2488af9c67c24a4312
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 252}
+    spritePosition: {x: 274, y: 512}
+  - name: Samurai_Attack_02_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 4
+      width: 58
+      height: 74
+    spriteID: 92d4c8feca69ff743aa738aa44751714
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 4}
+    spritePosition: {x: 143, y: 512}
+  - name: Samurai_Attack_02_00
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 173
+      width: 54
+      height: 74
+    spriteID: 4a09d6bc72a1f3e40b0cfe197647d7b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 173}
+    spritePosition: {x: 18, y: 512}
+  - name: Samurai_Attack_01_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 255
+      width: 54
+      height: 74
+    spriteID: 3979fa4d8e67b024a95485191f1ad50a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 255}
+    spritePosition: {x: 660, y: 640}
+  - name: Samurai_Attack_01_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 170
+      width: 101
+      height: 74
+    spriteID: 6750830b550c99240acad4c34b0ef58c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 170}
+    spritePosition: {x: 532, y: 640}
+  - name: Samurai_Attack_01_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 755
+      width: 63
+      height: 74
+    spriteID: 5564fdf2bfc4a43419ca6e5fda614067
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 755}
+    spritePosition: {x: 404, y: 640}
+  - name: Samurai_Attack_01_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 619
+      width: 57
+      height: 73
+    spriteID: 98999eed5b16d4348bb1feb883612de2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 113, y: 619}
+    spritePosition: {x: 276, y: 640}
+  - name: Samurai_Attack_01_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 441
+      width: 52
+      height: 73
+    spriteID: 6def6e599d3e3a84297960b3d793ea3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 441}
+    spritePosition: {x: 148, y: 640}
+  - name: Samurai_Attack_01_00
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 4
+      width: 53
+      height: 74
+    spriteID: 54b46c5e657f94241a1331dd2552810e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 4}
+    spritePosition: {x: 19, y: 640}
+  - name: Samurai_Jump_11
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 953
+      width: 50
+      height: 63
+    spriteID: ff9681f3fcaea86429920bc6a6de866e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 953}
+    spritePosition: {x: 1431, y: 768}
+  - name: Samurai_Jump_10
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 243
+      width: 51
+      height: 70
+    spriteID: 7c62380d1aaabbb4388bd185c1a62736
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 243}
+    spritePosition: {x: 1302, y: 768}
+  - name: Samurai_Jump_09
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 82
+      width: 52
+      height: 71
+    spriteID: 51c74312c729d6f41af550c33d0be381
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 82}
+    spritePosition: {x: 1174, y: 768}
+  - name: Samurai_Jump_08
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 86
+      width: 53
+      height: 74
+    spriteID: f142a9e8166a5464284dc74b090e1980
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 86}
+    spritePosition: {x: 1046, y: 768}
+  - name: Samurai_Jump_07
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 361
+      y: 4
+      width: 53
+      height: 70
+    spriteID: 8221972f66aecb744a333f32c2b11db9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 361, y: 4}
+    spritePosition: {x: 918, y: 776}
+  - name: Samurai_Jump_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 609
+      width: 51
+      height: 74
+    spriteID: d448dc056747941449d1ba1acfe9b434
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 609}
+    spritePosition: {x: 790, y: 774}
+  - name: Samurai_Jump_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 440
+      width: 53
+      height: 80
+    spriteID: b6895a0aea060e34789d1ead4eff1842
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 113, y: 440}
+    spritePosition: {x: 661, y: 770}
+  - name: Samurai_Jump_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 259
+      width: 53
+      height: 82
+    spriteID: 047d1e1adc9d80d43aaad2f74eff283b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 113, y: 259}
+    spritePosition: {x: 531, y: 769}
+  - name: Samurai_Jump_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 837
+      width: 58
+      height: 80
+    spriteID: 39cb2a264aa02f24283695734a81c793
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 837}
+    spritePosition: {x: 399, y: 768}
+  - name: Samurai_Jump_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 501
+      width: 65
+      height: 74
+    spriteID: 55667bb83dbfe0f48ae27189ca073049
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 501}
+    spritePosition: {x: 269, y: 768}
+  - name: Samurai_Jump_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 671
+      width: 62
+      height: 76
+    spriteID: 0e61e6097d16286419118b37329160e7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 671}
+    spritePosition: {x: 141, y: 769}
+  - name: Samurai_Jump_00
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 583
+      width: 60
+      height: 80
+    spriteID: 1da35aea129783c4399248ac41beaf24
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 583}
+    spritePosition: {x: 15, y: 768}
+  - name: Samurai_Run_07
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 519
+      width: 51
+      height: 78
+    spriteID: 558d40d8c31d319428a37a03932e6b19
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 519}
+    spritePosition: {x: 911, y: 896}
+  - name: Samurai_Run_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 89
+      width: 57
+      height: 77
+    spriteID: a87d83d28a245e249b912bc5077dfa04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 113, y: 89}
+    spritePosition: {x: 783, y: 896}
+  - name: Samurai_Run_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 605
+      width: 51
+      height: 78
+    spriteID: d6672b98387b14d44831eff5f9bc00e6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 605}
+    spritePosition: {x: 655, y: 896}
+  - name: Samurai_Run_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 884
+      width: 51
+      height: 79
+    spriteID: 49f4ad09ecea40d4885985a78b09e207
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 113, y: 884}
+    spritePosition: {x: 527, y: 896}
+  - name: Samurai_Run_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 691
+      width: 51
+      height: 78
+    spriteID: 7b58a8a7dd7e2624489ac7756b65087a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 691}
+    spritePosition: {x: 399, y: 896}
+  - name: Samurai_Run_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 174
+      width: 57
+      height: 77
+    spriteID: 79947a99a5e4aad4fb194b72c8a2f01a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 113, y: 174}
+    spritePosition: {x: 271, y: 896}
+  - name: Samurai_Run_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 777
+      width: 51
+      height: 78
+    spriteID: 5d95a970251683147863fe10e59e4a74
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 777}
+    spritePosition: {x: 143, y: 896}
+  - name: Samurai_Run_00
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 86
+      width: 51
+      height: 79
+    spriteID: 16785595a343fa343a1054b781a4dfd2
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 86}
+    spritePosition: {x: 15, y: 896}
+  - name: Samurai_Walk_07
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 863
+      width: 48
+      height: 82
+    spriteID: e08c9cd3e5748124faae46d419b83cb7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 863}
+    spritePosition: {x: 920, y: 1024}
+  - name: Samurai_Walk_06
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 349
+      width: 52
+      height: 83
+    spriteID: 989bf9dd46d3a8c49b4924f7124f4713
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 113, y: 349}
+    spritePosition: {x: 792, y: 1024}
+  - name: Samurai_Walk_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 700
+      width: 48
+      height: 84
+    spriteID: 6246e8a2ffaf74644b0966ef64f7717a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 113, y: 700}
+    spritePosition: {x: 664, y: 1024}
+  - name: Samurai_Walk_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 337
+      width: 48
+      height: 83
+    spriteID: c3351a47975e9ca439d90b752ec6a772
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 337}
+    spritePosition: {x: 536, y: 1024}
+  - name: Samurai_Walk_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 244
+      y: 4
+      width: 48
+      height: 82
+    spriteID: aa1ef22ddaa81ab45987d575eabfec1a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 244, y: 4}
+    spritePosition: {x: 408, y: 1024}
+  - name: Samurai_Walk_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 528
+      width: 51
+      height: 83
+    spriteID: 03e39a5c2b101784085fe703d6a2b7ac
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 113, y: 528}
+    spritePosition: {x: 280, y: 1024}
+  - name: Samurai_Walk_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 113
+      y: 792
+      width: 48
+      height: 84
+    spriteID: a8a26f7980c00dc4d8f35c97f7851a11
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 113, y: 792}
+    spritePosition: {x: 152, y: 1024}
+  - name: Samurai_Walk_00
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 178
+      y: 428
+      width: 48
+      height: 83
+    spriteID: 470dfb3273d4df249ad189995397da12
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 178, y: 428}
+    spritePosition: {x: 24, y: 1024}
+  - name: Samurai_Idle_05
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 691
+      width: 46
+      height: 82
+    spriteID: 843cec2c26fd2c14aa42121c7cf754b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 691}
+    spritePosition: {x: 675, y: 1154}
+  - name: Samurai_Idle_04
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 168
+      width: 46
+      height: 83
+    spriteID: da0f7fe40f34d0941964cf5c186e1359
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 168}
+    spritePosition: {x: 547, y: 1154}
+  - name: Samurai_Idle_03
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 259
+      width: 46
+      height: 83
+    spriteID: 7e16a19815f95ba4bb52dc2dc4b5c976
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 259}
+    spritePosition: {x: 419, y: 1154}
+  - name: Samurai_Idle_02
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 350
+      width: 46
+      height: 83
+    spriteID: 602f25a3577a1514198dc772d3256a02
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 350}
+    spritePosition: {x: 291, y: 1154}
+  - name: Samurai_Idle_01
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 781
+      width: 46
+      height: 82
+    spriteID: c8752dbc183291d4492e509995e9dabb
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 781}
+    spritePosition: {x: 163, y: 1154}
+  - name: Samurai_Idle_00
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 300
+      y: 871
+      width: 46
+      height: 81
+    spriteID: 3f63e45b98e78fe42a2130366a77e5b0
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 300, y: 871}
+    spritePosition: {x: 35, y: 1154}
+  spriteImportData: []
+  rigSpriteImportData: []
+  sharedRigSpriteImportData: []
+  mosaicSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  generateTileAssets: 0
+  tilePaletteCellLayout: 0
+  tilePaletteHexagonLayout: 0
+  tilePaletteCellSize: {x: 1, y: 1, z: 0}
+  tilePaletteCellSizing: 0
+  transparencySortMode: 0
+  transparencySortAxis: {x: 0, y: 0, z: 1}
+  tileTemplate: {instanceID: 0}
+  padding: 4
+  spriteSizeExpand: 0
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  pSDLayerImportSetting: []
+  psdLayers:
+  - name: Samurai_Dead_02
+    spriteName: Samurai_Dead_02
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d20e9988eb7b1a4418cedfedf73b3909
+    layerID: 55
+    mosaicPosition: {x: 4, y: 1006}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Dead_01
+    spriteName: Samurai_Dead_01
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d266ae8544bce3b48a05c12ad43171e9
+    layerID: 54
+    mosaicPosition: {x: 300, y: 960}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Dead_00
+    spriteName: Samurai_Dead_00
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8ea849b7913e05f4a97f0817e6438ae2
+    layerID: 53
+    mosaicPosition: {x: 361, y: 161}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Hurt_01
+    spriteName: Samurai_Hurt_01
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3f40ab6a2b5af7d4fb659748d767e673
+    layerID: 52
+    mosaicPosition: {x: 244, y: 94}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Hurt_00
+    spriteName: Samurai_Hurt_00
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 10c9beaf47b719640981c496fcfdf920
+    layerID: 51
+    mosaicPosition: {x: 300, y: 522}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Shield_01
+    spriteName: Samurai_Shield_01
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3057b776b50e7fd4fba3bc5d78f2e77d
+    layerID: 50
+    mosaicPosition: {x: 113, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Shield_00
+    spriteName: Samurai_Shield_00
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c20e82f40e198924e9ca51a00ed727ec
+    layerID: 49
+    mosaicPosition: {x: 4, y: 416}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Attack_03_02
+    spriteName: Samurai_Attack_03_02
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8b11f9edd1d975946a8838f38283a213
+    layerID: 48
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Attack_03_01
+    spriteName: Samurai_Attack_03_01
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ff2b9a8c41c4d4f40ae17225c0323bf5
+    layerID: 47
+    mosaicPosition: {x: 4, y: 87}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Attack_03_00
+    spriteName: Samurai_Attack_03_00
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 89ca9a09129e2614e89ce12430defe70
+    layerID: 46
+    mosaicPosition: {x: 4, y: 333}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Attack_02_04
+    spriteName: Samurai_Attack_02_04
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 81fe9685c1047bb4db0a8845725a1ecc
+    layerID: 45
+    mosaicPosition: {x: 4, y: 925}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Attack_02_03
+    spriteName: Samurai_Attack_02_03
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6afec9adf688be2488af9c67c24a4312
+    layerID: 44
+    mosaicPosition: {x: 4, y: 252}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Attack_02_01
+    spriteName: Samurai_Attack_02_01
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 92d4c8feca69ff743aa738aa44751714
+    layerID: 43
+    mosaicPosition: {x: 178, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Attack_02_00
+    spriteName: Samurai_Attack_02_00
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 4a09d6bc72a1f3e40b0cfe197647d7b0
+    layerID: 42
+    mosaicPosition: {x: 178, y: 173}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Attack_01_05
+    spriteName: Samurai_Attack_01_05
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3979fa4d8e67b024a95485191f1ad50a
+    layerID: 41
+    mosaicPosition: {x: 178, y: 255}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Attack_01_04
+    spriteName: Samurai_Attack_01_04
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6750830b550c99240acad4c34b0ef58c
+    layerID: 40
+    mosaicPosition: {x: 4, y: 170}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Attack_01_03
+    spriteName: Samurai_Attack_01_03
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5564fdf2bfc4a43419ca6e5fda614067
+    layerID: 39
+    mosaicPosition: {x: 4, y: 755}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Attack_01_02
+    spriteName: Samurai_Attack_01_02
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 98999eed5b16d4348bb1feb883612de2
+    layerID: 38
+    mosaicPosition: {x: 113, y: 619}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Attack_01_01
+    spriteName: Samurai_Attack_01_01
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6def6e599d3e3a84297960b3d793ea3b
+    layerID: 37
+    mosaicPosition: {x: 300, y: 441}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Attack_01_00
+    spriteName: Samurai_Attack_01_00
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 54b46c5e657f94241a1331dd2552810e
+    layerID: 36
+    mosaicPosition: {x: 300, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Jump_11
+    spriteName: Samurai_Jump_11
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ff9681f3fcaea86429920bc6a6de866e
+    layerID: 35
+    mosaicPosition: {x: 178, y: 953}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Jump_10
+    spriteName: Samurai_Jump_10
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7c62380d1aaabbb4388bd185c1a62736
+    layerID: 34
+    mosaicPosition: {x: 361, y: 243}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Jump_09
+    spriteName: Samurai_Jump_09
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 51c74312c729d6f41af550c33d0be381
+    layerID: 33
+    mosaicPosition: {x: 361, y: 82}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Jump_08
+    spriteName: Samurai_Jump_08
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f142a9e8166a5464284dc74b090e1980
+    layerID: 32
+    mosaicPosition: {x: 300, y: 86}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Jump_07
+    spriteName: Samurai_Jump_07
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 8221972f66aecb744a333f32c2b11db9
+    layerID: 31
+    mosaicPosition: {x: 361, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Jump_06
+    spriteName: Samurai_Jump_06
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d448dc056747941449d1ba1acfe9b434
+    layerID: 30
+    mosaicPosition: {x: 300, y: 609}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Jump_05
+    spriteName: Samurai_Jump_05
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b6895a0aea060e34789d1ead4eff1842
+    layerID: 29
+    mosaicPosition: {x: 113, y: 440}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Jump_04
+    spriteName: Samurai_Jump_04
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 047d1e1adc9d80d43aaad2f74eff283b
+    layerID: 28
+    mosaicPosition: {x: 113, y: 259}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Jump_03
+    spriteName: Samurai_Jump_03
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 39cb2a264aa02f24283695734a81c793
+    layerID: 27
+    mosaicPosition: {x: 4, y: 837}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Jump_02
+    spriteName: Samurai_Jump_02
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 55667bb83dbfe0f48ae27189ca073049
+    layerID: 26
+    mosaicPosition: {x: 4, y: 501}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Jump_01
+    spriteName: Samurai_Jump_01
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0e61e6097d16286419118b37329160e7
+    layerID: 25
+    mosaicPosition: {x: 4, y: 671}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Jump_00
+    spriteName: Samurai_Jump_00
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1da35aea129783c4399248ac41beaf24
+    layerID: 24
+    mosaicPosition: {x: 4, y: 583}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Run_07
+    spriteName: Samurai_Run_07
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 558d40d8c31d319428a37a03932e6b19
+    layerID: 23
+    mosaicPosition: {x: 178, y: 519}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Run_06
+    spriteName: Samurai_Run_06
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a87d83d28a245e249b912bc5077dfa04
+    layerID: 22
+    mosaicPosition: {x: 113, y: 89}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Run_05
+    spriteName: Samurai_Run_05
+    isGroup: 0
+    parentIndex: -1
+    spriteID: d6672b98387b14d44831eff5f9bc00e6
+    layerID: 21
+    mosaicPosition: {x: 178, y: 605}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Run_04
+    spriteName: Samurai_Run_04
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 49f4ad09ecea40d4885985a78b09e207
+    layerID: 20
+    mosaicPosition: {x: 113, y: 884}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Run_03
+    spriteName: Samurai_Run_03
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7b58a8a7dd7e2624489ac7756b65087a
+    layerID: 19
+    mosaicPosition: {x: 178, y: 691}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Run_02
+    spriteName: Samurai_Run_02
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 79947a99a5e4aad4fb194b72c8a2f01a
+    layerID: 18
+    mosaicPosition: {x: 113, y: 174}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Run_01
+    spriteName: Samurai_Run_01
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 5d95a970251683147863fe10e59e4a74
+    layerID: 17
+    mosaicPosition: {x: 178, y: 777}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Run_00
+    spriteName: Samurai_Run_00
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 16785595a343fa343a1054b781a4dfd2
+    layerID: 16
+    mosaicPosition: {x: 178, y: 86}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Walk_07
+    spriteName: Samurai_Walk_07
+    isGroup: 0
+    parentIndex: -1
+    spriteID: e08c9cd3e5748124faae46d419b83cb7
+    layerID: 15
+    mosaicPosition: {x: 178, y: 863}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Walk_06
+    spriteName: Samurai_Walk_06
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 989bf9dd46d3a8c49b4924f7124f4713
+    layerID: 14
+    mosaicPosition: {x: 113, y: 349}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Walk_05
+    spriteName: Samurai_Walk_05
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6246e8a2ffaf74644b0966ef64f7717a
+    layerID: 13
+    mosaicPosition: {x: 113, y: 700}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Walk_04
+    spriteName: Samurai_Walk_04
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c3351a47975e9ca439d90b752ec6a772
+    layerID: 12
+    mosaicPosition: {x: 178, y: 337}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Walk_03
+    spriteName: Samurai_Walk_03
+    isGroup: 0
+    parentIndex: -1
+    spriteID: aa1ef22ddaa81ab45987d575eabfec1a
+    layerID: 11
+    mosaicPosition: {x: 244, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Walk_02
+    spriteName: Samurai_Walk_02
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 03e39a5c2b101784085fe703d6a2b7ac
+    layerID: 10
+    mosaicPosition: {x: 113, y: 528}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Walk_01
+    spriteName: Samurai_Walk_01
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a8a26f7980c00dc4d8f35c97f7851a11
+    layerID: 9
+    mosaicPosition: {x: 113, y: 792}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Walk_00
+    spriteName: Samurai_Walk_00
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 470dfb3273d4df249ad189995397da12
+    layerID: 8
+    mosaicPosition: {x: 178, y: 428}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Idle_05
+    spriteName: Samurai_Idle_05
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 843cec2c26fd2c14aa42121c7cf754b0
+    layerID: 7
+    mosaicPosition: {x: 300, y: 691}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Idle_04
+    spriteName: Samurai_Idle_04
+    isGroup: 0
+    parentIndex: -1
+    spriteID: da0f7fe40f34d0941964cf5c186e1359
+    layerID: 6
+    mosaicPosition: {x: 300, y: 168}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Idle_03
+    spriteName: Samurai_Idle_03
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 7e16a19815f95ba4bb52dc2dc4b5c976
+    layerID: 5
+    mosaicPosition: {x: 300, y: 259}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Idle_02
+    spriteName: Samurai_Idle_02
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 602f25a3577a1514198dc772d3256a02
+    layerID: 4
+    mosaicPosition: {x: 300, y: 350}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Idle_01
+    spriteName: Samurai_Idle_01
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c8752dbc183291d4492e509995e9dabb
+    layerID: 3
+    mosaicPosition: {x: 300, y: 781}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Samurai_Idle_00
+    spriteName: Samurai_Idle_00
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 3f63e45b98e78fe42a2130366a77e5b0
+    layerID: 2
+    mosaicPosition: {x: 300, y: 871}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Background
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 27ef6276275f2db4eb9329615397d74b
+    layerID: 1
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
+  mosaicPSDLayers: []
+  rigPSDLayers: []
+  sharedRigPSDLayers: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 1
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

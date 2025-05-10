@@ -137,12 +137,12 @@ TextureImporter:
       name: Samurai_Attack_1_0
       rect:
         serializedVersion: 2
-        x: 22
+        x: 23
         y: 0
-        width: 55
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 103
+        height: 74
+      alignment: 9
+      pivot: {x: 0.30583, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -161,10 +161,10 @@ TextureImporter:
         serializedVersion: 2
         x: 151
         y: 0
-        width: 54
+        width: 103
         height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.30583, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -183,10 +183,10 @@ TextureImporter:
         serializedVersion: 2
         x: 279
         y: 0
-        width: 59
+        width: 103
         height: 74
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.30583, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -205,10 +205,10 @@ TextureImporter:
         serializedVersion: 2
         x: 407
         y: 0
-        width: 65
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 103
+        height: 74
+      alignment: 9
+      pivot: {x: 0.30583, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -227,10 +227,10 @@ TextureImporter:
         serializedVersion: 2
         x: 535
         y: 0
-        width: 105
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 103
+        height: 74
+      alignment: 9
+      pivot: {x: 0.30583, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -249,10 +249,10 @@ TextureImporter:
         serializedVersion: 2
         x: 663
         y: 0
-        width: 56
-        height: 75
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 103
+        height: 74
+      alignment: 9
+      pivot: {x: 0.30583, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -277,13 +277,17 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":7.0,"y":1.0},"gridSpriteSize":{"x":94.0,"y":128.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":105.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":1,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       Samurai_Attack_1_0: 7723526777260651953
       Samurai_Attack_1_1: 496716398657846743
       Samurai_Attack_1_2: -1254275628453722341
       Samurai_Attack_1_3: 8278093097697993396
       Samurai_Attack_1_4: -6504204295084632166
+      Samurai_Attack_1_5: -54086715
+      Samurai_Attack_1_6: -1485959597
       Samurai_Attack_1_7: -5593860852925899070
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0

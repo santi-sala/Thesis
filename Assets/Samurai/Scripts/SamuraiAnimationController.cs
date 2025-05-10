@@ -4,21 +4,22 @@ public class SamuraiAnimationController : MonoBehaviour
 {
     private Animator _animator;
     private PlayerInputActions _input;
+    private SamuraiController _samuraiController;
 
-    [Header("References")]
-    [SerializeField] private SamuraiController mover;
+    
 
     void Awake()
     {
         _animator = GetComponent<Animator>();
         _input = new PlayerInputActions();
+        _samuraiController = GetComponent<SamuraiController>();
     }
 
     void OnEnable()
     {
         _input.Enable();
 
-        mover.OnJumpStarted += () =>
+        _samuraiController.OnJumpStarted += () =>
         {
             _animator.SetTrigger("onJump");
         };
@@ -28,7 +29,7 @@ public class SamuraiAnimationController : MonoBehaviour
             _animator.SetTrigger("onAttack_One");
         };
 
-        mover.OnLanded += () =>
+        _samuraiController.OnLanded += () =>
         {
             _animator.SetTrigger("onLand");
         };
@@ -37,23 +38,23 @@ public class SamuraiAnimationController : MonoBehaviour
     void OnDisable()
     {
         _input.Disable();
-        mover.OnJumpStarted -= () => { _animator.SetTrigger("onJump"); };
-        mover.OnLanded -= () => { _animator.SetTrigger("onLand"); };
+        _samuraiController.OnJumpStarted -= () => { _animator.SetTrigger("onJump"); };
+        _samuraiController.OnLanded -= () => { _animator.SetTrigger("onLand"); };
 
     }
 
     void Update()
     {
-        if (mover == null) return;
+        if (_samuraiController == null) return;
 
-        _animator.SetFloat("onWalk", mover.SpeedParameter);
+        _animator.SetFloat("onWalk", _samuraiController.SpeedParameter);
 
-        _animator.SetBool("onFall", mover.IsFalling);
+        _animator.SetBool("onFall", _samuraiController.IsFalling);
 
         // Detect attack state
         AnimatorStateInfo state = _animator.GetCurrentAnimatorStateInfo(1);
         bool isAttacking = state.IsTag("Attack_01");
 
-        mover.IsAttacking = isAttacking;
+        _samuraiController.IsAttacking = isAttacking;
     }
 }

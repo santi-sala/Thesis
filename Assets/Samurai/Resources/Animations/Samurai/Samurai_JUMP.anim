@@ -31,7 +31,7 @@ AnimationClip:
     - time: 0.33333334
       value: {fileID: -179401427099980796, guid: 5d10b6d2b117c3c49a9a7ef63dfc431b, type: 3}
     attribute: m_Sprite
-    path: Sprite
+    path: Visuals/Sprite
     classID: 212
     script: {fileID: 0}
     flags: 2
@@ -43,7 +43,7 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 850496168
+      path: 1201564956
       attribute: 0
       script: {fileID: 0}
       typeID: 212
@@ -81,4 +81,11 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events: []
+  m_Events:
+  - time: 0
+    functionName: PlaySFX
+    data: Jump
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0

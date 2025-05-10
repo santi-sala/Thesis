@@ -119,15 +119,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Samurai_Attack_01_04_0
+      name: Samurai_Attack_01_04
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 55
+        width: 101
         height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.31188, y: 0.50000006}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -140,55 +140,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Samurai_Attack_01_04_1
-      rect:
-        serializedVersion: 2
-        x: 56
-        y: 30
-        width: 38
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: c5062590fe54894c0800000000000000
-      internalID: -4280594552859762596
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Samurai_Attack_01_04_2
-      rect:
-        serializedVersion: 2
-        x: 71
-        y: 29
-        width: 30
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e1bbcc0d76a24cf80800000000000000
-      internalID: -8087292405477491938
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 257d70c6d9329394d93d59015513588a
     internalID: 0
     vertices: []
     indices: 
@@ -197,7 +153,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Samurai_Attack_01_04: -8012108456704306952
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

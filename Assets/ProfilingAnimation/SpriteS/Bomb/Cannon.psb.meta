@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 25ec4983f9bba6e4387901a5fdf5e99e
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  multiSpriteImportData: []
+  layeredSpriteImportData:
+  - name: cannon ball
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 118
+      height: 122
+    spriteID: c1d3a7e9ecccb164da39ad330fb41e52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 704, y: 322}
+  spriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  rigSpriteImportData:
+  - name: cannon ball
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    customData: 
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 118
+      height: 122
+    spriteID: c1d3a7e9ecccb164da39ad330fb41e52
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 704, y: 322}
+  sharedRigSpriteImportData: []
+  mosaicSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  characterData:
+    bones:
+    - name: bone_1
+      guid: 4c41eb749c230f641b810d1dfef28849
+      position: {x: 496.9108, y: 179.22969, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+      length: 61.785606
+      parentId: -1
+      color:
+        serializedVersion: 2
+        rgba: 4278190335
+    - name: bone_2
+      guid: 0320bb593e37f3a48a196f75e14e3d34
+      position: {x: 61.785603, y: -0.00000001245138, z: 0}
+      rotation: {x: 0, y: 0, z: 0.0038833262, w: 0.9999925}
+      length: 530.3424
+      parentId: 0
+      color:
+        serializedVersion: 2
+        rgba: 4278255615
+    - name: bone_3
+      guid: 0b35d005c93ec3a45af97acaa3c41ba1
+      position: {x: 80.59082, y: 34.38697, z: 0}
+      rotation: {x: 0, y: 0, z: -0.01267887, w: 0.99991965}
+      length: 351.2025
+      parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 4278255360
+    - name: bone_4
+      guid: 777c5d2058786f946b9ab4a0bf91e1cc
+      position: {x: -46.093678, y: -44.990284, z: 0}
+      rotation: {x: 0, y: 0, z: -0.24815764, w: 0.96871966}
+      length: 32.51892
+      parentId: 2
+      color:
+        serializedVersion: 2
+        rgba: 4294967040
+    - name: bone_5
+      guid: 147aaa214812b584ea7cc174004ef5d8
+      position: {x: 352.74716, y: -88.89895, z: 0}
+      rotation: {x: 0, y: 0, z: -0.47221327, w: 0.8814843}
+      length: 72.359344
+      parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 4294901760
+    - name: bone_6
+      guid: 0a40ac7200165564dac1c26254ecea56
+      position: {x: 72.35934, y: -0.0000035298654, z: 0}
+      rotation: {x: 0, y: 0, z: 0.20710668, w: 0.9783184}
+      length: 57.104786
+      parentId: 4
+      color:
+        serializedVersion: 2
+        rgba: 4294902015
+    - name: bone_7
+      guid: 5efc401d0c5bdea4caee3f768349b24f
+      position: {x: 57.10479, y: 0.00000047283902, z: 0}
+      rotation: {x: 0, y: 0, z: 0.009091118, w: 0.9999587}
+      length: 38.824993
+      parentId: 5
+      color:
+        serializedVersion: 2
+        rgba: 4278223103
+    - name: bone_8
+      guid: e411d78f02dacf741bcdead2fd22321e
+      position: {x: 354.75812, y: 92.07875, z: 0}
+      rotation: {x: 0, y: 0, z: 0.48612028, w: 0.87389195}
+      length: 70.90404
+      parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 4278255488
+    - name: bone_9
+      guid: e5e30357ab992b7468531626d01aff69
+      position: {x: 70.90405, y: 0.000011124175, z: 0}
+      rotation: {x: 0, y: 0, z: -0.24810079, w: 0.96873426}
+      length: 60.73953
+      parentId: 7
+      color:
+        serializedVersion: 2
+        rgba: 4286643968
+    - name: bone_10
+      guid: 73160276a1dece04ea6a365598b31f3c
+      position: {x: 60.73952, y: -0.0000033125343, z: 0}
+      rotation: {x: 0, y: 0, z: 0.009402115, w: 0.99995583}
+      length: 38.824875
+      parentId: 8
+      color:
+        serializedVersion: 2
+        rgba: 4294934528
+    - name: bone_11
+      guid: f4628e09c5bffaf4db03070080b1ec2d
+      position: {x: 35.902622, y: -15.149457, z: 0}
+      rotation: {x: 0, y: 0, z: -0.6433177, w: 0.76559937}
+      length: 158.59462
+      parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 4294901888
+    - name: bone_12
+      guid: 07491f91ef515a74a968dca835a5ee38
+      position: {x: 158.59464, y: 0.000009099429, z: 0}
+      rotation: {x: 0, y: -0, z: -0.8021002, w: 0.5971896}
+      length: 148.67722
+      parentId: 10
+      color:
+        serializedVersion: 2
+        rgba: 4286578943
+    - name: bone_13
+      guid: bcecdb1f9d36f3f4098468cca37cfd15
+      position: {x: 148.67725, y: 0.000049329512, z: 0}
+      rotation: {x: 0, y: 0, z: 0.7868942, w: 0.617088}
+      length: 114.68445
+      parentId: 11
+      color:
+        serializedVersion: 2
+        rgba: 4278255615
+    - name: bone_14
+      guid: 68a620c706705624b97db95b0c6f714f
+      position: {x: 37.37121, y: 13.444855, z: 0}
+      rotation: {x: 0, y: 0, z: 0.64075184, w: 0.76774806}
+      length: 161.89963
+      parentId: 1
+      color:
+        serializedVersion: 2
+        rgba: 4278255360
+    - name: bone_15
+      guid: a6cd637505bd968419e8b4f4a687ab58
+      position: {x: 161.89963, y: -0.000017431526, z: 0}
+      rotation: {x: 0, y: -0, z: 0.80790526, w: 0.5893125}
+      length: 156.17838
+      parentId: 13
+      color:
+        serializedVersion: 2
+        rgba: 4294967040
+    - name: bone_16
+      guid: 95e2420a68a3cae4ebd49ea6a4b15155
+      position: {x: 156.17838, y: -0.000030181489, z: 0}
+      rotation: {x: 0, y: 0, z: -0.7998744, w: 0.6001674}
+      length: 113.667946
+      parentId: 14
+      color:
+        serializedVersion: 2
+        rgba: 4294901760
+    parts:
+    - spritePosition:
+        x: 466
+        y: 238
+        width: 73
+        height: 70
+      spriteId: b43d1676e6954414a8ca254e6c42c186
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 704
+        y: 322
+        width: 118
+        height: 122
+      spriteId: c1d3a7e9ecccb164da39ad330fb41e52
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 381
+        y: 276
+        width: 226
+        height: 403
+      spriteId: 0cabc0d152570424d9eac7674cc7f2f1
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 323
+        y: 444
+        width: 341
+        height: 116
+      spriteId: 1177bc54aaed34648915a6e215f2e304
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 321
+        y: 238
+        width: 346
+        height: 542
+      spriteId: 177c77fbeb4c8f4439a4577690f9dd0a
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 175
+        y: 133
+        width: 319
+        height: 209
+      spriteId: 226d000e64b3528429587772f887cad8
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 503
+        y: 138
+        width: 319
+        height: 209
+      spriteId: 63e8d607530db354cad8a1cc8c5ee405
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 237
+        y: 585
+        width: 169
+        height: 188
+      spriteId: 81cac996bfee8ce4fb57b1bb0c3cafd2
+      bones: 
+      parentGroup: 0
+      order: 0
+    - spritePosition:
+        x: 578
+        y: 585
+        width: 169
+        height: 188
+      spriteId: f22d071991debce4fbb60b87ee35fd23
+      bones: 
+      parentGroup: 0
+      order: 0
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0.5, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 1
+  documentPivot: {x: 0.5, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  generateTileAssets: 0
+  tilePaletteCellLayout: 0
+  tilePaletteHexagonLayout: 0
+  tilePaletteCellSize: {x: 1, y: 1, z: 0}
+  tilePaletteCellSizing: 0
+  transparencySortMode: 0
+  transparencySortAxis: {x: 0, y: 0, z: 1}
+  tileTemplate: {instanceID: 0}
+  padding: 4
+  spriteSizeExpand: 0
+  skeletonAssetReferenceID: 
+  pipeline: {instanceID: 0}
+  pipelineVersion: 
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  pSDLayerImportSetting:
+  - spriteId: b43d1676e6954414a8ca254e6c42c186
+    name: cannon star
+    layerId: 8
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: c1d3a7e9ecccb164da39ad330fb41e52
+    name: cannon ball
+    layerId: 7
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  - spriteId: 0cabc0d152570424d9eac7674cc7f2f1
+    name: cannon
+    layerId: 6
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 1177bc54aaed34648915a6e215f2e304
+    name: cannon frog belt
+    layerId: 5
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 177c77fbeb4c8f4439a4577690f9dd0a
+    name: cannon frog body
+    layerId: 2
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 226d000e64b3528429587772f887cad8
+    name: cannon frog leg
+    layerId: 11
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 63e8d607530db354cad8a1cc8c5ee405
+    name: cannon frog leg
+    layerId: 4
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: 81cac996bfee8ce4fb57b1bb0c3cafd2
+    name: cannon frog arm
+    layerId: 12
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  - spriteId: f22d071991debce4fbb60b87ee35fd23
+    name: cannon frog arm
+    layerId: 3
+    flatten: 0
+    isGroup: 0
+    importLayer: 0
+  psdLayers:
+  - name: cannon star
+    spriteName: cannon star
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b43d1676e6954414a8ca254e6c42c186
+    layerID: 8
+    mosaicPosition: {x: 4, y: 874}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cannon ball
+    spriteName: cannon ball
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c1d3a7e9ecccb164da39ad330fb41e52
+    layerID: 7
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cannon
+    spriteName: cannon
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0cabc0d152570424d9eac7674cc7f2f1
+    layerID: 6
+    mosaicPosition: {x: 358, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cannon frog belt
+    spriteName: cannon frog belt
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1177bc54aaed34648915a6e215f2e304
+    layerID: 5
+    mosaicPosition: {x: 4, y: 554}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cannon frog body
+    spriteName: cannon frog body
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 177c77fbeb4c8f4439a4577690f9dd0a
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cannon frog leg
+    spriteName: cannon frog leg
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 226d000e64b3528429587772f887cad8
+    layerID: 11
+    mosaicPosition: {x: 592, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cannon frog leg
+    spriteName: cannon frog leg
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 63e8d607530db354cad8a1cc8c5ee405
+    layerID: 4
+    mosaicPosition: {x: 592, y: 221}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cannon frog arm
+    spriteName: cannon frog arm
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 81cac996bfee8ce4fb57b1bb0c3cafd2
+    layerID: 12
+    mosaicPosition: {x: 4, y: 678}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cannon frog arm
+    spriteName: cannon frog arm
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f22d071991debce4fbb60b87ee35fd23
+    layerID: 3
+    mosaicPosition: {x: 181, y: 678}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  mosaicPSDLayers: []
+  rigPSDLayers:
+  - name: cannon star
+    spriteName: cannon star
+    isGroup: 0
+    parentIndex: -1
+    spriteID: b43d1676e6954414a8ca254e6c42c186
+    layerID: 8
+    mosaicPosition: {x: 4, y: 874}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cannon ball
+    spriteName: cannon ball
+    isGroup: 0
+    parentIndex: -1
+    spriteID: c1d3a7e9ecccb164da39ad330fb41e52
+    layerID: 7
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: cannon
+    spriteName: cannon
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 0cabc0d152570424d9eac7674cc7f2f1
+    layerID: 6
+    mosaicPosition: {x: 358, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cannon frog belt
+    spriteName: cannon frog belt
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 1177bc54aaed34648915a6e215f2e304
+    layerID: 5
+    mosaicPosition: {x: 4, y: 554}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cannon frog body
+    spriteName: cannon frog body
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 177c77fbeb4c8f4439a4577690f9dd0a
+    layerID: 2
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cannon frog leg
+    spriteName: cannon frog leg
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 226d000e64b3528429587772f887cad8
+    layerID: 11
+    mosaicPosition: {x: 592, y: 4}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cannon frog leg
+    spriteName: cannon frog leg
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 63e8d607530db354cad8a1cc8c5ee405
+    layerID: 4
+    mosaicPosition: {x: 592, y: 221}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cannon frog arm
+    spriteName: cannon frog arm
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 81cac996bfee8ce4fb57b1bb0c3cafd2
+    layerID: 12
+    mosaicPosition: {x: 4, y: 678}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: cannon frog arm
+    spriteName: cannon frog arm
+    isGroup: 0
+    parentIndex: -1
+    spriteID: f22d071991debce4fbb60b87ee35fd23
+    layerID: 3
+    mosaicPosition: {x: 181, y: 678}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  sharedRigPSDLayers: []
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 0
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []

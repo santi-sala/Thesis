@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5e6fedc2472449cead18ef23b5cb30d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Library:
+  - m_Name: Cannon_PNG
+    m_Hash: 633812828
+    m_CategoryList: []
+    m_OverrideEntries:
+    - m_Name: 00_PNG
+      m_Hash: 755603828
+      m_Sprite: {fileID: 21300000, guid: 1ee67e5ec51af014fb64c571fdd0dda1, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 1ee67e5ec51af014fb64c571fdd0dda1, type: 3}
+    - m_Name: 01_PNG
+      m_Hash: 275361988
+      m_Sprite: {fileID: 21300000, guid: c4265824f089864409b9fd1a034d4411, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: c4265824f089864409b9fd1a034d4411, type: 3}
+    - m_Name: 02_PNG
+      m_Hash: 399100436
+      m_Sprite: {fileID: 21300000, guid: 9302b9e954d353c4f8ee1545e801c3c7, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 9302b9e954d353c4f8ee1545e801c3c7, type: 3}
+    - m_Name: 03_PNG
+      m_Hash: 715776932
+      m_Sprite: {fileID: 21300000, guid: e2b866f0e18015742be98e48b3a5ec4e, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: e2b866f0e18015742be98e48b3a5ec4e, type: 3}
+    - m_Name: 04_PNG
+      m_Hash: 411647924
+      m_Sprite: {fileID: 21300000, guid: bd49fd1be6306224092e42a14196a0a9, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: bd49fd1be6306224092e42a14196a0a9, type: 3}
+    - m_Name: 05_PNG
+      m_Hash: 636032516
+      m_Sprite: {fileID: 21300000, guid: 0115eaacca1836e4197a3251544ae7d0, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: 0115eaacca1836e4197a3251544ae7d0, type: 3}
+    - m_Name: 06_PNG
+      m_Hash: 575237332
+      m_Sprite: {fileID: 21300000, guid: f045e2899703f8941920b396ee0478e3, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: f045e2899703f8941920b396ee0478e3, type: 3}
+    - m_Name: 07_PNG
+      m_Hash: 522798436
+      m_Sprite: {fileID: 21300000, guid: bf82149422ab46442ad5edcf90645f65, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: bf82149422ab46442ad5edcf90645f65, type: 3}
+    - m_Name: 08_PNG
+      m_Hash: 494523061
+      m_Sprite: {fileID: 21300000, guid: ad6d0494a95d0d8409743c7c2c771ced, type: 3}
+      m_FromMain: 0
+      m_SpriteOverride: {fileID: 21300000, guid: ad6d0494a95d0d8409743c7c2c771ced, type: 3}
+    m_FromMain: 0
+    m_EntryOverrideCount: 9
+  m_PrimaryLibraryGUID: 
+  m_ModificationHash: 638817215168763914
+  m_Version: 1

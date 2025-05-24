@@ -3,47 +3,47 @@ using UnityEngine;
 public class BallAnimator : MonoBehaviour
 {
     [Header("Animation Settings")]
-    public float duration = 1f;         // Total duration of the animation
-    public int fps = 20;                // Sampling rate (frames per second)
-    public Vector3 startPos;
-    public Vector3 endPos;
+    [SerializeField] private float m_duration = 1f;         // Total duration of the animation
+    [SerializeField] private int m_fps = 20;                // Sampling rate (frames per second)
+    [SerializeField] private Vector3 m_startPos;
+    [SerializeField] private Vector3 m_endPos;
 
-    private float timePerFrame;
-    private float timer;
-    private int currentFrame;
-    private int totalFrames;
+    private float m_timePerFrame;
+    private float m_timer;
+    private int m_currentFrame;
+    private int m_totalFrames;
 
     void Start()
     {
         // Calculate how many total frames we need
-        totalFrames = Mathf.Max(1, Mathf.RoundToInt(duration * fps));
-        timePerFrame = duration / totalFrames;
-        timer = 0f;
-        currentFrame = 0;
+        m_totalFrames = Mathf.Max(1, Mathf.RoundToInt(m_duration * m_fps));
+        m_timePerFrame = m_duration / m_totalFrames;
+        m_timer = 0f;
+        m_currentFrame = 0;
 
         // Immediately apply the first frame (frame 0)
-        float t = (float)currentFrame / totalFrames;
-        transform.position = Vector3.Lerp(startPos, endPos, t);
+        float t = (float)m_currentFrame / m_totalFrames;
+        transform.position = Vector3.Lerp(m_startPos, m_endPos, t);
 
         // Prepare to step to the next frame in Update
-        currentFrame++;
+        m_currentFrame++;
     }
 
     void Update()
     {
-        if (currentFrame <= totalFrames)
+        if (m_currentFrame <= m_totalFrames)
         {
-            timer += Time.deltaTime;
+            m_timer += Time.deltaTime;
 
             // Advance one or more frames if enough time has passed
-            while (timer >= timePerFrame && currentFrame <= totalFrames)
+            while (m_timer >= m_timePerFrame && m_currentFrame <= m_totalFrames)
             {
-                timer -= timePerFrame;
+                m_timer -= m_timePerFrame;
 
-                float t = (float)currentFrame / totalFrames;
-                transform.position = Vector3.Lerp(startPos, endPos, t);
+                float t = (float)m_currentFrame / m_totalFrames;
+                transform.position = Vector3.Lerp(m_startPos, m_endPos, t);
 
-                currentFrame++;
+                m_currentFrame++;
             }
         }
     }

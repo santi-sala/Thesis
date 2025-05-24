@@ -2,59 +2,56 @@ using PlayerActions;
 using UnityEngine;
 public class SamuraiAnimationController : MonoBehaviour
 {
-    private Animator _animator;
-    private PlayerInputActions _input;
-    private SamuraiController _samuraiController;
-
-    
+    private Animator m_animator;
+    private PlayerInputActions m_input;
+    private SamuraiController m_samuraiController;
 
     void Awake()
     {
-        _animator = GetComponent<Animator>();
-        _input = new PlayerInputActions();
-        _samuraiController = GetComponent<SamuraiController>();
+        m_animator = GetComponent<Animator>();
+        m_input = new PlayerInputActions();
+        m_samuraiController = GetComponent<SamuraiController>();
     }
 
     void OnEnable()
     {
-        _input.Enable();
+        m_input.Enable();
 
-        _samuraiController.OnJumpStarted += () =>
+        m_samuraiController.OnJumpStarted += () =>
         {
-            _animator.SetTrigger("onJump");
+            m_animator.SetTrigger("onJump");
         };
 
-        _input.Player.Attack.performed += ctx =>
+        m_input.Player.Attack.performed += ctx =>
         {
-            _animator.SetTrigger("onAttack_One");
+            m_animator.SetTrigger("onAttack_One");
         };
 
-        _samuraiController.OnLanded += () =>
+        m_samuraiController.OnLanded += () =>
         {
-            _animator.SetTrigger("onLand");
+            m_animator.SetTrigger("onLand");
         };
     }
 
     void OnDisable()
     {
-        _input.Disable();
-        _samuraiController.OnJumpStarted -= () => { _animator.SetTrigger("onJump"); };
-        _samuraiController.OnLanded -= () => { _animator.SetTrigger("onLand"); };
-
+        m_input.Disable();
+        m_samuraiController.OnJumpStarted -= () => { m_animator.SetTrigger("onJump"); };
+        m_samuraiController.OnLanded -= () => { m_animator.SetTrigger("onLand"); };
     }
 
     void Update()
     {
-        if (_samuraiController == null) return;
+        if (m_samuraiController == null) return;
 
-        _animator.SetFloat("onWalk", _samuraiController.SpeedParameter);
+        m_animator.SetFloat("onWalk", m_samuraiController.SpeedParameter);
 
-        _animator.SetBool("onFall", _samuraiController.IsFalling);
+        m_animator.SetBool("onFall", m_samuraiController.IsFalling);
 
         // Detect attack state
-        AnimatorStateInfo state = _animator.GetCurrentAnimatorStateInfo(1);
+        AnimatorStateInfo state = m_animator.GetCurrentAnimatorStateInfo(1);
         bool isAttacking = state.IsTag("Attack_01");
 
-        _samuraiController.IsAttacking = isAttacking;
+        m_samuraiController.IsAttacking = isAttacking;
     }
 }

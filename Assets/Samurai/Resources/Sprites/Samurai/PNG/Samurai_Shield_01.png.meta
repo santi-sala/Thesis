@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Samurai_Shield_01_0: 3967171738506493232
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Samurai_Attack_01_05_0: -8020167559244604861
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

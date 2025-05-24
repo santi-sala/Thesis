@@ -5,19 +5,19 @@ using TMPro;
 public class TimeDisplay : MonoBehaviour
 {
     [Header("Display Settings")]
-    public bool showTime = true;
-    public bool showMilliseconds = true;
+    [SerializeField] private bool m_showTime = true;
+    [SerializeField] private bool m_showMilliseconds = true;
+    [SerializeField] private TextMeshProUGUI m_timeText;
 
-    private float timePassed = 0f;
-    [SerializeField] private TextMeshProUGUI _timeText;
+    private float m_timePassed = 0f;
 
     void Update()
     {
-        _timeText.text = showMilliseconds
-            ? $"Time: {timePassed:F3} s"
-            : $"Time: {Mathf.FloorToInt(timePassed)} s";
+        m_timeText.text = m_showMilliseconds
+            ? $"Time: {m_timePassed:F3} s"
+            : $"Time: {Mathf.FloorToInt(m_timePassed)} s";
 
-        timePassed += Time.deltaTime;
+        m_timePassed += Time.deltaTime;
     }
 }
 

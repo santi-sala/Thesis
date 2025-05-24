@@ -6,8 +6,26 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Samurai/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 99b689b1d4746a442b19c207238f254d
+  - enabled: 1
+    path: Assets/Scenes/BallFPS.unity
+    guid: 992a9402b030d31459dfdb7d230bc191
+  - enabled: 1
+    path: Assets/Scenes/BouncingBall.unity
+    guid: 4f3fc0bd6cf85f745842c8ace144919c
+  - enabled: 1
+    path: Assets/Scenes/Pendulum.unity
+    guid: 2221bcead092d6049a1e02a7839c0574
+  - enabled: 1
+    path: Assets/Scenes/Samurai.unity
+    guid: 6da49aba1da09f247b934d9d0e0fbb19
+  - enabled: 1
+    path: Assets/Scenes/MajesticFarmStay.unity
+    guid: 130c9952c37fd9f4d94fbed8e297830d
+  - enabled: 1
+    path: Assets/Scenes/BuggerOff.unity
+    guid: f03d11c5db444734e97fbf5855820edb
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: b102d7462c5e2804a9a3b13a65d09f14, type: 3}
   m_UseUCBPForAssetBundles: 0

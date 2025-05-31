@@ -10,7 +10,6 @@ public class BombSpawner : MonoBehaviour
     [SerializeField] private float spacing = 1.5f;
 
     [Header("Animation Offset Settings")]
-    [SerializeField] private string animatorParameter = "RandomStartOffset";
     [SerializeField] private bool randomizeAnimatorOffset = true;
 
     private void Start()

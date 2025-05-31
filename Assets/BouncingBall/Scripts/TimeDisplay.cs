@@ -5,7 +5,6 @@ using TMPro;
 public class TimeDisplay : MonoBehaviour
 {
     [Header("Display Settings")]
-    [SerializeField] private bool m_showTime = true;
     [SerializeField] private bool m_showMilliseconds = true;
     [SerializeField] private TextMeshProUGUI m_timeText;
 

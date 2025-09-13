@@ -12,8 +12,23 @@ public class BallAnimator : MonoBehaviour
     private float m_timer;
     private int m_currentFrame;
     private int m_totalFrames;
+    private bool m_isAnimationPlaying = false;
 
     void Start()
+    {
+        prepareBall();
+    }
+
+    void Update()
+    {
+        if (m_isAnimationPlaying)
+        {
+            keepAnimating();
+        }
+        
+    }
+
+    private void prepareBall() 
     {
         // Calculate how many total frames we need
         m_totalFrames = Mathf.Max(1, Mathf.RoundToInt(m_duration * m_fps));
@@ -27,9 +42,10 @@ public class BallAnimator : MonoBehaviour
 
         // Prepare to step to the next frame in Update
         m_currentFrame++;
+        m_isAnimationPlaying = true;
     }
 
-    void Update()
+    private void keepAnimating() 
     {
         if (m_currentFrame <= m_totalFrames)
         {
@@ -46,5 +62,14 @@ public class BallAnimator : MonoBehaviour
                 m_currentFrame++;
             }
         }
+        else 
+        { 
+            m_isAnimationPlaying = false;
+        }
+    } 
+
+    public void RestartAnimation()
+    {
+        prepareBall();
     }
 }

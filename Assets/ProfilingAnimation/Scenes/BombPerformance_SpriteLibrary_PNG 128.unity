@@ -152,8 +152,7 @@ MonoBehaviour:
   columns: 30
   rows: 20
   spacing: 25
-  animatorParameter: RandomStartOffset
-  randomizeAnimatorOffset: 1
+  randomizeAnimatorOffset: 0
 --- !u!4 &1209489429
 Transform:
   m_ObjectHideFlags: 0

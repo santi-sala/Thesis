@@ -18,5 +18,10 @@ public class TimeDisplay : MonoBehaviour
 
         m_timePassed += Time.deltaTime;
     }
+
+    public void ResetTimer()
+    {
+        m_timePassed = 0f;
+    }
 }
 
